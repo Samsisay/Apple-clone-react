@@ -1,29 +1,47 @@
 .fifth-heghlight-wrapper .left-side-wrapper .left-side-container{
-	background-image:  url("../../../images/home/central_park_sm.jpg"); 
+	background-image:  url("../../../images/Apple/10024.jpg"); 
 	background-color: #000;
 	padding-top: 35px;
 	margin: 0 0 10px 0;
 	background-size: cover;		
 }
 .fifth-heghlight-wrapper .right-side-wrapper .right-side-container{
-	background-image:  url("../../../images/home/watch.jpg"); 
+	background-image:  url("../../../images/Apple/10074.jpg"); 
 	background-color: #fbfbfd;
 	background-position: bottom;
 	padding-top: 35px;
 	margin: 0 0 10px 0;
 	background-size: auto;	
 }
+.fifth-heghlight-wrapper .left-side-wrapper .description-wraper {
+font-size: 20px !important;
+}
+.fifth-heghlight-wrapper .right-side-wrapper .description-wraper .white {
+	/* font-size: 30px; */
+}
 .fifth-heghlight-wrapper .description-wraper {
 	max-width: 450px;
 	margin: 7px auto;
 }
-
+.fifth-heghlight-wrapper .right-side-wrapper .description-wraper { 
+font-size: 18px;
+}
+.fifth-heghlight-wrapper .right-side-wrapper .links-wrapper {
+	margin-top: -10px;
+	margin-left: 20px;
+}
 @media (min-width: 768px) {
 .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
-	background-image: url("../../../images/home/central_park_lg.jpg");
+	/* background-image: url("../../../images/home/central_park_lg.jpg"); */
     margin: 5px 5px 5px 10px;
+}
+.fifth-heghlight-wrapper .left-side-wrapper .description-wraper {
+	font-size: 20px;
 }
 .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
     margin: 5px 10px 5px 5px;
+}
+.fifth-heghlight-wrapper .right-side-wrapper .description-wraper {
+	font-size: 20px;
 }
 }

@@ -5,14 +5,16 @@ import './SecContaints.css';
 class SecondContaints extends Component {
     
     render() { 
-        return ( 
-            <section className="second-hightlight-wrapper">
-				<Structure  alert="New" titleColor="black" title="MacBook Air" priceColor ="grey" price = "From $999."
-				colorClass="black" description="Twice the speed. Twice the storage."
-				/>
-				
-	        </section>
-         );
-    }
+        return (
+          <section className="second-hightlight-wrapper">
+            <Structure
+              titleColor="black"
+              title="iPhone 13"
+              colorClass="black"
+              description="Your new superpower."
+            />
+          </section>
+        );
+    } 
 }
 export default SecondContaints;

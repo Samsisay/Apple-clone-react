@@ -1,20 +1,35 @@
 import React, {Component } from 'react';
 import Structure from "../Containts/Structure";
+import StructureTwo from "../Containts/StructureTwo";
+
 import './ThirdContaint.css'
 
 class ThirdContaint extends Component {
    
     render() { 
-        return ( 
+        return (
             <section className="third-hightlight-wrapper">
-               <Structure titleColor= "white" title="iPhone 11 Pro" priceColor ="grey" 
-               price = "From $24.95/mo. or $599 with trade‑in."
-			    colorClass="white" description="Pro cameras. Pro display. Pro performance."
-				/>
-	        </section>
-         );
+              <Structure
+                titleColor="black"
+                title="Get supercharged for college."
+                colorClass="black"
+                description="Save on Mac or iPad. Plus get a gift card up to $150."
+                >
+                    {/* <a href='#'>Shop now</a>  */}
+              </Structure>
+            </section>
+            
+        //   <section className="third-hightlight-wrapper">
+        //     <StructureTwo
+        //       titleColor="black"
+        //       title="Get supercharged for college."
+        //       description="Save on Mac or iPad. Plus get a gift card up to $150."
+        //       link="Shop now"
+        //     />
+        //   </section>
+        );
     }
-}
- 
+} 
+
 export default ThirdContaint;
 

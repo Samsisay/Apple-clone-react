@@ -1,5 +1,5 @@
 .sixth-heghlight-wrapper .left-side-wrapper .left-side-container{
-	background-image:  url("../../../images/home/spyder.jpg"); 
+	background-image:  url("../../../images/Apple/10025.jpg"); 
 	background-color: #000;
 	background-position: bottom;
 	padding-top: 35px;
@@ -7,23 +7,38 @@
 	background-size: cover;		
 }
 .sixth-heghlight-wrapper .right-side-wrapper .right-side-container{
-	background-image:  url("../../../images/home/Card_small.jpg"); 
-	background-color: #fbfbfd;
+	background-image:  url("../../../images/Apple/10026.jpg"); 
+	background-color: black;
 	background-position: bottom;
-	padding-top: 35px;
+  /* background-size: cover; */
+	padding-top: 25px;
 	margin: 0 0 10px 0;
 	background-size: auto;	
 }
-
+.sixth-heghlight-wrapper .left-side-wrapper .description-wraper {
+	font-size: 18px;
+}
+.sixth-heghlight-wrapper .right-side-wrapper .description-wraper {
+	color: white;
+	font-size: 18px;
+	margin-bottom: -5px !important;
+}
 @media (min-width: 768px) {
 .sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
-	background-image: url("../../../images/home/Arcon-lg.jpg");
+	/* background-image: url("../../../images/home/Arcon-lg.jpg"); */
     margin: 5px 5px 10px 10px;
 }
+.sixth-heghlight-wrapper .left-side-wrapper .description-wraper {
+	font-size: 20px;
+}
 .sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
-	background-image: url("../../../images/home/Card_large.jpg");
+	/* background-image: url("../../../images/home/Card_large.jpg"); */
     margin: 5px 10px 10px 5px;
 }	
+.sixth-heghlight-wrapper .right-side-wrapper .description-wraper {
+	/* color: white; */
+	font-size: 18px;
+}
 .sixth-heghlight-wrapper .links-wrapper {
     max-width: 500px;
 }

@@ -1,31 +1,66 @@
 .first-hightlight-wrapper{
-    background-image: url(../../../images/home/ipodPronew-sm.jpg);
+    background-image: url(../../../images/Apple/10050.png);
     height: 580px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: initial;
     background-color: #fbfbfd;
     text-align: center;
-    padding: 65px 20px;
+    padding: 90px 20px;
     color: #fff;	
     margin-bottom: 10px;
 }
-.ipod-caption {
+/* .ipod-caption {
     color: #86868b;
     font-size: 12px;
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -.01em;		
     padding-top: 310px;
+} */
+.supercharge {
+    margin-top: -85px;
 }
-
+.supercharge img {
+    width: 200px;
+}
+.first-hightlight-wrapper .title-wraper {
+    margin-bottom: 20px;
+    font-size: 35px !important;
+    /* font-weight: 500 !important; */
+}
+.first-hightlight-wrapper .title-wraper.bold {
+    /* font-size: 0px; */
+}
 /* Meadia Query */
 @media (min-width: 768px) {
     .first-hightlight-wrapper {
-        background-image: url("../../../images/home/ipodPronew.jpg");
+        background-image: url("../../../images/Apple/10015.png");
         min-height: 692px;
     }	
-    .ipod-caption {
+    .first-hightlight-wrapper .container {
+        padding-top: 250px;
+        margin-left: -200px !important;
+        /* align-items: center; */
+    }
+    .first-hightlight-wrapper .title-wraper {
+    margin-bottom: 30px;
+    /* font-size: 0px; */
+}
+.supercharge {
+    margin-top: -90px;
+    margin-left: -490px
+}
+    .supercharge img {
+    width: 250px;
+}
+    /* .ipod-caption {
     padding-top: 415px;
-    }	
+    }	 */
+}
+@media (min-width: 1100px) {
+.supercharge {
+    margin-top: -90px;
+    margin-left: -650px
+}
 }

@@ -1,24 +1,42 @@
 .fourth-heghlight-wrapper .left-side-wrapper .left-side-container{
-	background-image:  url("../../../images/home/iphone11-colored.jpg"); 
+	background-image:  url("../../../images/Apple/10018.jpg"); 
 	background-color: #000;
 	padding-top: 35px;
 	margin: 0 0 10px 0;
 	background-size: cover;		
 }
 .fourth-heghlight-wrapper .right-side-wrapper .right-side-container{
-	background-image:  url("../../../images/home/apple-blue-logo.jpg"); 
-	background-color: #165ca9;
-	background-position: bottom;
+	background-image:  url("../../../images/Apple/10020.jpg"); 
+	/* background-color: #165ca9; */
+	/* background-position: bottom; */
 	padding-top: 35px;
 	margin: 0 0 10px 0;
 	background-size: auto;	
 }
-
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container .description-wraper{
+/* font-size: 50px !important; */
+}
+.fourth-heghlight-wrapper .right-side-wrapper .supercharged {
+	margin-left: -80px;
+	margin-top: -10px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .links-wrapper li {
+	margin-right: -40px;
+}
 @media (min-width: 768px) {
 .fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
     margin: 10px 5px 5px 10px;
 }
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container .title-wraper {
+font-size: 40px;
+}
+.fourth-heghlight-wrapper .left-side-wrapper .description-wraper {
+font-size: 20px;
+}
 .fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
     margin: 10px 10px 5px 5px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container .title-wraper {
+font-size: 40px;
 }
 }		
